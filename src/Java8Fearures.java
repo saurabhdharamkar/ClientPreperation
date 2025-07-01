@@ -25,6 +25,9 @@ public class Java8Fearures {
 
         int count=stringList.stream().mapToInt(String::length).sum();
         System.out.println("Count: " + count);
+
+
+
     }
 
 
